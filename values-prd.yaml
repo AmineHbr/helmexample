@@ -1,0 +1,5 @@
+namespace : prd
+
+configmap: 
+   data:
+     CUSTOM_HEADER : "this a prd helm header"
