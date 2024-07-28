@@ -1,5 +1,5 @@
 namespace : prd
-
+replicas : 5
 configmap: 
    data:
      CUSTOM_HEADER : "this a prd helm header"
