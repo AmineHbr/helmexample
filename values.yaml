@@ -6,5 +6,5 @@ configmap:
    data:
      CUSTOM_HEADER : "this a my helm header"
 image :
-  name : aminehbr/rain-app1
+  name : aminehbr/rain-app2
   tag : latest
