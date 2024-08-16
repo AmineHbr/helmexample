@@ -9,7 +9,10 @@ spec:
   ports:
   - port: 80
     protocol: TCP
-    name: flask
+    name: http
+  - port: 443
+    protocol: TCP
+    name: https
   selector:
     app: {{ .Values.appName }}
     tier: frontend
