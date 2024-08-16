@@ -3,8 +3,10 @@ kind: Service
 metadata:
   name: {{ include "sqlserver.fullname" . }}
 spec:
+  type: NodePort
   ports:
   - port: 1433
     targetPort: 1433
+    nodePort: 30033
   selector:
     app: {{ include "sqlserver.name" . }}
