@@ -6,5 +6,5 @@ configmap:
    data:
      CUSTOM_HEADER : "this a my helm header"
 image :
-  name : devopsjourney1/mywebapp
+  name : aminehbr/rain-app
   tag : latest
