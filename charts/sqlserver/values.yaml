@@ -14,4 +14,4 @@ persistence:
   size: 10Gi
 
 secret:
-  saPassword: "Your_Password123"
+  saPassword: Your_Password123
